@@ -12,7 +12,6 @@ import {
   Delete,
 } from '@nestjs/common';
 import { AboutService } from './about.service';
-import { UsersEmails } from '../config';
 import { ApiQuery } from '@nestjs/swagger';
 import { CreateAboutDTO } from './dto/about.dto';
 
