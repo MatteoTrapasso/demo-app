@@ -7,7 +7,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://traps:traps@cluster0.kuac6.mongodb.net/sample_airbnb?retryWrites=true&w=majority',
+      'mongodb+srv://traps:traps@cluster0.kuac6.mongodb.net/about?retryWrites=true&w=majority',
     ),
     AboutModule,
   ],
